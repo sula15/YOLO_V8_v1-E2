@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Cutlet', 'dhal wade', 'objects']
+
+roboflow:
+  workspace: yolo-d0dre
+  project: my-first-project-qgisd
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-d0dre/my-first-project-qgisd/dataset/3

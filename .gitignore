@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv_yolo/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# YOLO Training outputs
+runs/
+inference_results/
+*.pt
+*.pth
+*.onnx
+*.engine
+yolov8n.pt
+
+# Dataset (if you don't want to push images)
+# Uncomment if images are too large
+# dataset/train/images/
+# dataset/valid/images/
+# dataset/test/
+# dataset/Images/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+wandb/
